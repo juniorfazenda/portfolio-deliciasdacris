@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    list-style: none; 
+}
+
+header {
+   
+    background-color: #F3AFBC;
+    box-shadow: 0px 3px 10px #464646;   
+}
+
+.logo > img {
+    width: 170px;
+    border: none;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list > ul {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.nav-item {
+    padding: 10px;
+}
